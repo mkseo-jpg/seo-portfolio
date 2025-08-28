@@ -15,8 +15,8 @@ pagination.pagerSize = 5
 
 [languages]
   [languages.en]
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
+    title = "Mikey SEO"
+    subtitle = "SEO projects and case studies"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
