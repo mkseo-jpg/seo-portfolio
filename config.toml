@@ -15,7 +15,7 @@ pagination.pagerSize = 5
 
 [languages]
   [languages.en]
-    title = "Mikey SEO"
+    title = "MK SEO"
     subtitle = "SEO projects and case studies"
     keywords = ""
     copyright = ""
@@ -24,7 +24,7 @@ pagination.pagerSize = 5
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Mikey SEO"
+      logoText = "MK SEO"
       logoHomeLink = "/"
 
 [[menu.main]]
