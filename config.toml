@@ -1,0 +1,52 @@
+baseurl = "https://example.com/"
+languageCode = "en-us"
+theme = "terminal"
+pagination.pagerSize = 5
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 10
+  fullWidthTheme = false
+  centerTheme = false
+
+[languages]
+  [languages.en]
+    title = "Terminal"
+    subtitle = "A simple, retro theme for Hugo"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Mikey SEO"
+      logoHomeLink = "/"
+
+
+[[menu.main]]
+  identifier = "aeo"
+  name = "AEO Case Study"
+  url = "/projects/aeo/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "elearning"
+  name = "eLearning Cluster Strategy"
+  url = "/projects/elearning/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "therapy"
+  name = "Counseller Bookings Strategy"
+  url = "/projects/therapy/"
+  weight = 4
+
+[[menu.main]]
+  identifier = "personal-projects"
+  name = "Personal Projects"
+  url = "/personal-projects/"
+  weight = 5
