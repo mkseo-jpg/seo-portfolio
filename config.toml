@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseurl = "https://mkseo.netlify.app/"
 languageCode = "en-us"
 theme = "terminal"
 pagination.pagerSize = 5
@@ -11,6 +11,7 @@ pagination.pagerSize = 5
   showMenuItems = 10
   fullWidthTheme = false
   centerTheme = false
+  showThemeCredit = false  # hides "Powered by Hugo" footer
 
 [languages]
   [languages.en]
@@ -25,7 +26,6 @@ pagination.pagerSize = 5
     [languages.en.params.logo]
       logoText = "Mikey SEO"
       logoHomeLink = "/"
-
 
 [[menu.main]]
   identifier = "aeo"
